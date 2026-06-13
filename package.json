@@ -10,19 +10,24 @@
     "@antv/x6": "2.17.1",
     "@antv/x6-vue-shape": "2.1.2",
     "core-js": "^3.8.3",
-    "element-plus": "^2.14.1",
-    "vue": "^3.2.13"
+    "element-plus": "2.12.0",
+    "vue": "3.3.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "typescript": "~4.5.5"
+    "typescript": "4.5.5"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "pnpm": {
+    "overrides": {
+      "@types/lodash": "4.14.202"
+    }
+  }
 }
